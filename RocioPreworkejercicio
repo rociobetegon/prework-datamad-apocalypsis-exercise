@@ -1,0 +1,70 @@
+#Caso 0 ejemplo simple
+armas = ['pistola', 'escopeta']
+cargadores = {
+    'pistola': [10,10],
+    'escopeta': [2,2,2,2,2]
+}
+
+#your code 
+balas = 0
+for arma in armas:
+    if arma in cargadores:
+        balas += sum(cargadores[arma])
+
+print(balas)
+
+
+
+#Caso 1 mismas armas que municiones
+armas = ['pistola', 'ametralladora', 'escopeta', 'fusil de francotirador']
+cargadores = {
+    'pistola': [12,13,4,5,20,17],
+    'ametralladora': [33,40],
+    'escopeta': [2,2,2,1],
+    'fusil de francotirador': [1,2,4]
+}
+
+#your code 
+balas = 0
+for arma in armas:
+    if arma in cargadores:
+        balas += sum(cargadores[arma])
+
+print(balas)
+
+
+#Caso 2 Mas tipos de municion que armas 
+armas = ['pistola', 'ametralladora', 'escopeta', 'fusil de francotirador']
+cargadores = {
+    'pistola': [12,13,4,5,20,17],
+    'ametralladora': [33,40],
+    'escopeta': [2,2,2,1],
+    'fusil de francotirador': [1,2,4],
+    'bazoka': [1,1]
+}
+
+#your code 
+balas = 0
+for arma in armas:
+    if arma in cargadores:
+        balas += sum(cargadores[arma])
+
+print(balas)
+
+
+
+#Caso 3 Mas armas que tipos de municion
+armas = ['pistola', 'ametralladora', 'escopeta', 'fusil de francotirador']
+cargadores = {
+    'pistola': [12,13,4,5,20,17],
+    'ametralladora': [33,40],
+    'escopeta': [2,2,2,1]
+}
+
+#your code 
+balas = 0
+for arma in armas:
+    if arma in cargadores:
+        balas += sum(cargadores[arma])
+
+print(balas)
